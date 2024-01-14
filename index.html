@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kharoshi Cars</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <script src="Scri.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>Kharoshi Cars</header>
+    <div col-lg-12>
+        <section class="drop ">
+            <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">Vehicle</button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Sedans</a>
+                    <a class="dropdown-item" href="https://www.google.com/maps">SUV</a>
+                    <a class="dropdown-item" href="#">Vans</a>
+                    <a class="dropdown-item" href="#">Electric</a>
+                </div>
+            </div>
+
+
+            <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">Accessories</button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Tyres</a>
+                    <a class="dropdown-item" href="https://www.google.com/maps">Jackets</a>
+                    <a class="dropdown-item" href="#"></a>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">Support</button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Help</a>
+                    <a class="dropdown-item" href="#">Chat</a>
+                    <a class="dropdown-item" href="#"></a>
+                </div>
+            </div>
+
+            <div class="profile">
+                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <img src="Images/profIcon.webp" alt="Profile" width="30" height="30">
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Profile</a>
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <a class="dropdown-item" href="#">Logout</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="vid">
+            <video autoplay muted loop>
+                <source src="Video/My Movie - Trim.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="overlay">
+            <p>KHAROSHI</p>
+        </div>
+
+        <div class="cars">
+            <div class="slide">
+                <a href="https://www.hyundaiusa.com/us/en/vehicles/tucson"><img src="Images/tucson.jpg" alt="Tucson"></a>
+                <figcaption>Tucson</figcaption>
+                <p>SUV 27Mpg</p>
+            </div>
+            <div class="slide">
+                <a href="https://www.hyundaiusa.com/us/en/vehicles/santa-cruz"><img src="Images/santa_cruz.jpg"
+                        alt="santa cruz"></a>
+                <figcaption>Santa Cruz</figcaption>
+                <p>Truck 24Mpg</p>
+            </div>
+            <div class="slide">
+                <a href="https://www.hyundaiusa.com/us/en/vehicles/sonata"><img src="Images/Sonata.jpg" alt="Sonata"></a>
+                <figcaption>Sonata</figcaption>
+                <p>Sedan 35Mpg</p>
+            </div>
+            <div class="slide">
+                <a href="https://www.hyundaiusa.com/us/en/vehicles/ioniq-6"><img src="Images/ionoq6.jpg" alt="Ioniq"></a>
+                <figcaption>Ioniq 6</figcaption>
+                <p>Electric Sedan 27Mpg</p>
+            </div>
+
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
