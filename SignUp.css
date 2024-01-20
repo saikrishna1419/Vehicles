@@ -1,0 +1,48 @@
+body{
+    background-color: aliceblue;
+}
+
+.container {
+    height: 60%;
+    left: 50%;
+    top: 50%;
+    width:35%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    align-items: center;
+    padding: 5% 5%;
+    border: 1px solid rgb(0, 0, 0, 0.001);
+    background-color: rgb(217, 232, 245);
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+form{
+    text-align: left;
+}
+
+button[type=submit]{
+    background-color: rgb(183, 213, 238);
+    border: 1px solid rgb(183, 213, 238, 0.3);
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+input:hover{
+    border: 1px solid black;
+    
+}
+
+input[type=text],input[type=password] {
+    background-color: aliceblue;
+    border-radius: 1px;
+}
+
+input[type=text]:focus,input[type=password]:focus {
+    background-color: rgb(204, 225, 246);
+    border-radius: 1px;
+}
